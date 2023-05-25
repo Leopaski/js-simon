@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+.box{
+    margin: 10rem auto;
+    height: 15rem;
+    width: 25rem;
+    background-color: cornflowerblue;
+    display: flex;
+}
+.clock{
+    margin: auto;
+    height: 75%;
+    width: 80%;
+    background-color: white;
+    align-self: center;
+    display: flex;
+}
+.content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+    width: 100%;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
